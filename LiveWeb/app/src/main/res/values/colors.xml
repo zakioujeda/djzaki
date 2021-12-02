@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ********* CURRENT APP MAIN COLOR - IF YOU WANT, YOU CAN CHANGE IT ********* -->
+    <color name="Main_Color">#0d7fc7</color>
+    <color name="default_text_color">#8D8A8A</color>
+
+    <color name="item_icon_selected">#3A3939</color>
+    <color name="item_icon_colors">#8A8484</color>
+
+
+
+
+
+    <!-- ********* DEFAULT THEME COLORS !!! ********* -->
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <color name="colorPrimary">#0d7fc7</color>
+    <color name="colorPrimaryDark">#2890D1</color>
+    <color name="colorAccent">#0d7fc7</color>
+    <color name="main_background">#dfdfdf</color>
+    <color name="main_background_soft">#B3DCEBF8</color>
+    <color name="status_bar_color">#4FB2F1</color>
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <!-- ********* DEFAULT THEME COLORS !!! ********* -->
+
+
+
+
+    <!-- ********* THEME 2 COLORS !!! ********* -->
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <color name="colorPrimary_Theme2">#E9E9E9</color>
+    <color name="colorPrimaryDark_Theme2">#AA9E9E</color>
+    <color name="colorAccent_Theme2">#E9E9E9</color>
+    <color name="main_background_soft_Theme2">#B3DFE3E6</color>
+    <color name="status_bar_color_Theme2">#CECECE</color>
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <!-- ********* THEME 2 COLORS !!! ********* -->
+
+
+
+
+    <!-- ********* THEME 3 COLORS !!! ********* -->
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <color name="colorPrimary_Theme3">#FF3CA3</color>
+    <color name="colorPrimaryDark_Theme3">#FF6FB9</color>
+    <color name="colorAccent_Theme3">#FF3CA3</color>
+    <color name="main_background_soft_Theme3">#B3FFE6F1</color>
+    <color name="status_bar_color_Theme3">#FF7AC2</color>
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <!-- ********* THEME 3 COLORS !!! ********* -->
+
+
+
+
+    <!-- ********* THEME 4 COLORS !!! ********* -->
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <color name="colorPrimary_Theme4">#3CFF94</color>
+    <color name="colorPrimaryDark_Theme4">#6FFF8E</color>
+    <color name="colorAccent_Theme4">#3CFF94</color>
+    <color name="main_background_soft_Theme4">#B3E0ECE6</color>
+    <color name="status_bar_color_Theme4">#7AFFB6</color>
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <!-- ********* THEME 4 COLORS !!! ********* -->
+
+
+
+
+    <!-- ********* THEME 5 COLORS !!! ********* -->
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <color name="colorPrimary_Theme5">#FF0000</color>
+    <color name="colorPrimaryDark_Theme5">#FF2121</color>
+    <color name="colorAccent_Theme5">#FF0000</color>
+    <color name="main_background_soft_Theme5">#B3ECE0E0</color>
+    <color name="status_bar_color_Theme5">#FF4D4D</color>
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <!-- ********* THEME 4 COLORS !!! ********* -->
+
+
+
+
+
+    <!-- ********* THEME 6 COLORS !!! ********* -->
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <color name="colorPrimary_Theme6">#000000</color>
+    <color name="colorPrimaryDark_Theme6">#181818</color>
+    <color name="colorAccent_Theme6">#000000</color>
+    <color name="main_background_soft_Theme6">#B3E4E2E2</color>
+    <color name="status_bar_color_Theme6">#3D3B3B</color>
+    <!-- ********* DON'T CHANGE IT !!! ********* -->
+    <!-- ********* THEME 4 COLORS !!! ********* -->
+
+
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+
+</resources>

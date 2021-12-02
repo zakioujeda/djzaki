@@ -1,0 +1,81 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/century_gothic</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent_Theme2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Theme2</item>
+        <item name="colorAccent">@color/colorAccent_Theme2</item>
+        <item name="android:fontFamily">@font/century_gothic</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent_Theme2</item>
+    </style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent_Theme3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Theme3</item>
+        <item name="colorAccent">@color/colorAccent_Theme3</item>
+        <item name="android:fontFamily">@font/century_gothic</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark_Theme3</item>
+    </style>
+
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent_Theme4</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Theme4</item>
+        <item name="colorAccent">@color/colorAccent_Theme4</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent_Theme4</item>
+    </style>
+
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent_Theme5</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Theme5</item>
+        <item name="colorAccent">@color/colorAccent_Theme5</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent_Theme5</item>
+    </style>
+
+    <style name="AppTheme6" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent_Theme6</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Theme6</item>
+        <item name="colorAccent">@color/colorAccent_Theme6</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent_Theme6</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="FullScrenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/century_gothic</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

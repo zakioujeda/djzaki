@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- ********* CURRENT APP NAME - YOU SHOULD CHANGE IT ********* -->
+    <string name="app_name">LiveWeb</string>
+
+
+
+
+
+
+
+
+    <!-- ********* CURRENT APP TEXTS - IF YOU WANT, YOU CAN CHANGE IT ********* -->
+    <string name="exit_text">Would you like to exit the application?</string>
+    <string name="exit_rate">Would you like to rate the application?</string>
+    <string name="exit_text_2">Do not show again</string>
+    <string name="no_network_text">Network connection is not available</string>
+    <string name="exit_yes">yes</string>
+    <string name="exit_no">no</string>
+    <string name="no_network_button">reconnect</string>
+    <string name="loading">Loading</string>
+    <string name="notification_error_ssl_cert_invalid">Notification Error Ssl Cert Invalid</string>
+
+
+
+
+
+
+
+
+    <!-- TODO GOOGLE ADMOB APP ID FOR FIRST INSTALLATION-->
+    <string name="Google_Admob_App_ID">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

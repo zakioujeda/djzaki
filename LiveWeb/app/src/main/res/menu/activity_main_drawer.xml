@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <item
+        android:id="@+id/menu_items"
+        android:title="null">
+        <menu>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item01"
+            android:title="null"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/nav_item02"
+            android:title="null" />
+        <item
+            android:id="@+id/nav_item03"
+            android:title="null" />
+        <item
+            android:id="@+id/nav_item04"
+            android:title="null" />
+    </group></menu>
+    </item>
+
+    <item
+        android:id="@+id/group_items"
+        android:title="null">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_item05"
+                    android:title="null" />
+                <item
+                    android:id="@+id/nav_item06"
+                    android:title="null" />
+                <item
+                    android:id="@+id/nav_item07"
+                    android:title="null" />
+
+            </group>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_white"
+                android:title="null" />
+
+        </menu>
+    </item>
+
+</menu>

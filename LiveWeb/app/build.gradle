@@ -1,0 +1,79 @@
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.13.4'
+    }
+}
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "ixa.liveweb"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        /// add one signal code and remove
+        manifestPlaceholders = [
+                onesignal_app_id: 'xxx-xxx-xxx',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.google.android.material:material:1.5.0-alpha02'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.google.firebase:firebase-database:20.0.1'
+    implementation 'com.google.firebase:firebase-core:19.0.0'
+    implementation 'com.google.android.gms:play-services-ads:19.1.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.2.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.onesignal:OneSignal:3.16.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/Der_Lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/Rel_Der"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_margin="30dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/DAS_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_centerHorizontal="true"/>
+
+                <View
+                    android:id="@+id/DAS_View"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/default_text_color"
+                    android:layout_below="@+id/DAS_Title"/>
+
+                <TextView
+                    android:id="@+id/DAS_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/DAS_View"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/default_text_color"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/DAS_Yes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/DAS_Text"
+                    android:text="@string/exit_yes"
+                    android:layout_alignEnd="@+id/DAS_Text"
+                    android:layout_alignRight="@+id/DAS_Text"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <Button
+                    android:id="@+id/DAS_No"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/DAS_Text"
+                    android:text="@string/exit_no"
+                    android:layout_alignStart="@+id/DAS_Text"
+                    android:layout_alignLeft="@+id/DAS_Text"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <RelativeLayout
+                    android:id="@+id/Rel_Der_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/DAS_No"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/DAS_Check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/DAS_Text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/exit_text_2"
+                    android:layout_alignBottom="@+id/DAS_Check"
+                    android:layout_alignTop="@id/DAS_Check"
+                    android:layout_toEndOf="@id/DAS_Check"
+                    android:layout_toRightOf="@id/DAS_Check"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
